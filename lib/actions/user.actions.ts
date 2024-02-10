@@ -5,7 +5,7 @@ import User from "../models/user.model";
 import { connectToDB } from "../mongoose";
 import Thread from "../models/thread.model";
 import { FilterQuery, SortOrder } from "mongoose";
-import Community from "../models/community.models";
+import Community from "../models/community.model";
 
 interface paramtypes{
     userId:string,

@@ -5,7 +5,7 @@ import Thread from "../models/thread.model"
 import User from "../models/user.model"
 import { connectToDB } from "../mongoose"
 import mongoose from "mongoose"
-import Community from "../models/community.models"
+import Community from "../models/community.model"
 
 
 interface param{
